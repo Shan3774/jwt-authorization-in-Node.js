@@ -24,5 +24,16 @@ POST http://localhost:4000/login
 Content-Type: application/json
 
 {
-    "userName" : "Kebede"
+    "email" : "kebe@yahoo",
+    "password" : "kebe123"
+}
+
+###
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "userName" : "Kebede",
+    "email" : "kebe@yahoo",
+    "password" : "kebe123"
 }
